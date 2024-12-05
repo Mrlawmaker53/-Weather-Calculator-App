@@ -50,5 +50,11 @@
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 <string>We need your location to provide accurate weather updates.</string>
 
+<key>NSMicrophoneUsageDescription</key>
+<string>We need access to the microphone for speech synthesis.</string>
+<key>UIBackgroundModes</key>
+<array>
+    <string>audio</string>
+</array>
 </dict>
 </plist>

@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import '../modules/dashboard/dashboard_view.dart';
+import '../modules/quizz/quizz_ui.dart';
 import '../modules/weather/weather_view.dart';
 import '../modules/calculator/calculate_view.dart';
 part 'app_routes.dart';
@@ -18,6 +19,10 @@ class AppPages {
     GetPage(
       name: Routes.HOME,
       page: () => HomeView(),
+    ),
+  GetPage(
+      name: Routes.Quizz,
+      page: () => QuizScreen(),
     ),
   ];
 }
